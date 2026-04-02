@@ -9,7 +9,7 @@ console.log(logFirstProduct(products))
 
 // a function called addProduct to add a new product to the array. This function should take the product name as an argument.
 
-function addProduct (productName){ return products.push(productName)
+function addProduct (productName){  products.push(productName ; return products)
 }
 console.log(addProduct("Tablet"))
 console.log(products)
