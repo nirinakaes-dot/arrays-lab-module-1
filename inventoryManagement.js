@@ -12,8 +12,8 @@ console.log(logFirstProduct(products))
 function addProduct (productName){  products.push(productName) ;
   return products;
 }
-console.log(addProduct("Tablet"))
-console.log(products)
+// console.log(addProduct("Tablet"))
+// console.log(products)
 // a function called updateProductName to change the name of a product. This function should take the product's position in the array and the new name as arguments.
 
 function updateProductName (index,newName){products[index]= newName
