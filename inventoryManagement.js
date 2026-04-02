@@ -9,13 +9,14 @@ console.log(logFirstProduct(products))
 
 // a function called addProduct to add a new product to the array. This function should take the product name as an argument.
 
-function addProduct (productName){  products.push(productName) return products)
+function addProduct (productName){  products.push(productName) ;
+  return products;
 }
 console.log(addProduct("Tablet"))
 console.log(products)
 // a function called updateProductName to change the name of a product. This function should take the product's position in the array and the new name as arguments.
 
-function updateProductName (index,newName){products.with(index,newName; return products)
+function updateProductName (index,newName){products.with(index,newName)return products)
 }
 console.log(updateProductName(1,"Motherboard"))
 
