@@ -17,7 +17,7 @@ console.log(products)
 
 function updateProductName (index,newName){ return products.with(index,newName)
 }
-console.log(updateProductName([1],"Motherboard"))
+console.log(updateProductName(1,"Motherboard"))
 
 //Write a function called removeLastProduct to remove the last product from the array.
 
