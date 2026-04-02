@@ -3,7 +3,7 @@ const products= ["Laptop","Phone","Headphones","Monitor"]
 console.log (products)
 // //a function called logFirstProduct to console log the details of the first product in the array.
 
-function logFirstProduct (productOne){ {return productOne[0]}
+function logFirstProduct (productOne){ return productOne[0]
 }
 console.log(logFirstProduct(products))
 
