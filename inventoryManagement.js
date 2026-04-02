@@ -26,8 +26,8 @@ function updateProductName (index,newName){products[index]= newName
 function removeLastProduct(){ products.pop();
   return products
 }
-console.log(removeLastProduct(products))
-console.log(products)
+// console.log(removeLastProduct(products))
+// console.log(products)
 
 // Export the necessary parts for testing
 module.exports = {
